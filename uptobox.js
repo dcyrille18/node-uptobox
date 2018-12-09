@@ -86,7 +86,7 @@ const uptobox = (() => {
 	sources = JSON.parse(sources);
 
         // Get links
-        let links = [];
+        let links = {};
         sources.forEach((source) => {
                 if (links[source.lang] === undefined) links[source.lang] = [];
 		links[source.lang].push({[source.res]: source.src});
