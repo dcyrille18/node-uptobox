@@ -58,7 +58,7 @@ const uptobox = (() => {
 	
   let _getStreamingLinks = async (link) => {
     return new Promise(function(resolve, reject) {
-      let synthesis = [];
+      let synthesis = {};
       link = link.replace('http://', 'https://').replace('uptobox.com', 'uptostream.com');
       request({
         url: link,
