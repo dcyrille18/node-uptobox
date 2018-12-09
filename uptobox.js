@@ -37,7 +37,7 @@ const uptobox = (() => {
     });
   };
 
-  let _getDownloadLinks = async (link) => {
+  let _getDownloadLink = async (link) => {
     return new Promise(function(resolve, reject) {
       link = link.replace('http://', 'https://').replace('uptostream.com', 'uptobox.com');
       request({
