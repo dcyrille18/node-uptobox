@@ -31,13 +31,13 @@ uptobox.login(uptobox_username, uptobox_password).then(() => {
 {
   title: 'video_title',
   poster: 'video_poster.jpg',
-  links: [ 
+  links: { 
     'video_language': [
       {
         'video_resolution': 'video_link.mp4'
       }
     ]
-  ],
+  },
   thumbnail: 'video_thumbnail.jpg',
   subtitles: [
     {
