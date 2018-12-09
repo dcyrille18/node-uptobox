@@ -1,0 +1,11 @@
+{
+    "name": "uptobox",
+    "version": "1.0.0",
+    "description": "Simple node library to get uptobox premium links",
+    "main": "uptobox.js",
+    "author": "Cyrille DROMAS",
+    "license": "MIT",
+    "dependencies": {
+        "request": "latest"
+    }
+}
