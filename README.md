@@ -4,7 +4,7 @@ Simple node library to get uptobox premium links
 ## Use examples
 ### Get debrided direct download link
 ```
-const uptobox = require('uptobox');
+const uptobox = require('uptobox-request');
 
 uptobox.login(uptobox_username, uptobox_password).then(() => {
   uptobox.getDownloadLink(uptobox_link).then((result) => {
