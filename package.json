@@ -1,11 +1,32 @@
 {
-    "name": "uptobox",
-    "version": "1.0.0",
-    "description": "Simple node library to get uptobox premium links",
-    "main": "uptobox.js",
-    "author": "Cyrille DROMAS",
-    "license": "MIT",
-    "dependencies": {
-        "request": "latest"
-    }
+  "name": "uptobox-request",
+  "version": "1.0.0",
+  "description": "Simple node library to get uptobox premium links",
+  "main": "uptobox.js",
+  "dependencies": {
+    "request": "latest"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdromas/node-uptobox.git"
+  },
+  "keywords": [
+    "uptobox",
+    "node",
+    "request",
+    "premium",
+    "links",
+    "streaming"
+  ],
+  "author": "Cyrille DROMAS",
+  "e-mail": "cyrille.dromas@free.fr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cdromas/node-uptobox/issues"
+  },
+  "homepage": "https://github.com/cdromas/node-uptobox#readme"
 }
