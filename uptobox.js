@@ -24,9 +24,15 @@ const uptobox = (() => {
           login: username,
           password: password
         }
-      }, (err) => {
+      }, (err, res) => {
         if (err) reject('Unable to login to Uptobox');
-        resolve();
+	if (res && res.headers && res.headers['set-cookie']) {
+	  res.headers['set-cookie'].forEach((cookie) => {
+            if ((cookie.indexOf('xfss=') !== -1) && (cookie.indexOf('xfss=deleted' === -1)))
+              resolve();
+          });
+        }
+        reject();
       });
     });
   };
