@@ -1,6 +1,6 @@
 {
   "name": "uptobox-request",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Simple node library to get uptobox premium links",
   "main": "uptobox.js",
   "dependencies": {
