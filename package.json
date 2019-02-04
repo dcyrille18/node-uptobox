@@ -1,6 +1,6 @@
 {
   "name": "uptobox-request",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple node library to get uptobox premium links",
   "main": "uptobox.js",
   "dependencies": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cdromas/node-uptobox.git"
+    "url": "git+https://github.com/dcyrille18/node-uptobox.git"
   },
   "keywords": [
     "uptobox",
@@ -26,7 +26,7 @@
   "e-mail": "cyrille.dromas@free.fr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cdromas/node-uptobox/issues"
+    "url": "https://github.com/dcyrille18/node-uptobox/issues"
   },
-  "homepage": "https://github.com/cdromas/node-uptobox#readme"
+  "homepage": "https://github.com/dcyrille18/node-uptobox#readme"
 }
